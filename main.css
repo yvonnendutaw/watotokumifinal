@@ -7,57 +7,77 @@ body{
     height: 700px;
     position: relative;
     font-family: 'Poiret One', cursive;
-    background-color: white;
+    background-color: rgba(211, 218, 227, 0.61);
     vertical-align: baseline;
 }
 header{
     display: inline-block;
+    width: 70%;
     height: 70px;
-    width:100%;
-    background-color: #a73711;
-    margin-top: 20px;
-    border-radius: 7px;
+    margin-left: 15%;
+     margin-right: 15%;
+    background-color: rgba(195, 43, 195, 0.75);
+    align-content: right;
+
 
 }
 .nav {
     display: inline-block;
-    position:relative;
-    top:0;
-    left:0;
-    right:0;
     width:100%;
+    margin-right: 15%;
+    margin-left: 15%;
+    position:relative;
+    text-align: right;
+    align-content: right;
+
 }
 .nav a{
     display: inline-block;
     position: relative;
-    top: 10px;
-    color: aliceblue;
+   bottom: 0;
+    color: #bebebe;
+    text-align: right;
 }
 #main {
     display:  block ;
-    margin-top: 50px ;
-    background-color: #d4dfed;
-    width: 100%
-    border-radius: 7px;
+    background-color: rgba(190, 54, 216, 0.73);
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
     color: #120d0d;
     text-align: justify;
+}
+#container{
+    display: block;
+    width 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: rgba(178, 62, 174, 0.62);
+
 }
 h1{
     text-align: center;
     font-size: 40px;
 }
 
-#gallery {
-
-}
 table{
-    margin-top:50px;
+    background-color: #fff7f7;
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
     display: block;
-    background-color: aqua;
-    width: 60%;
-     margin-left: 20%;
-    margin-right: 20%;
+    border-spacing: 28px;
+    table-layout: fixed;
+
 }
 th{
     text-align: center;
+}
+footer
+{
+    display: block;
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: mediumpurple;
 }

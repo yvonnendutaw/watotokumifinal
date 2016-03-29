@@ -66,11 +66,13 @@ h1{
 table{
    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
     width: 70%;
+    margin-top: 40px;
     margin-left: 15%;
     margin-left: 15%;
     display: block;
     border-spacing: 28px;
     table-layout: fixed;
+    border-radius: 5px;
 
 }
 th{

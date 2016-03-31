@@ -90,4 +90,9 @@ footer {
     margin-right: 15%;
     margin-top: 20px;
     background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
+    text-align: center;
+}
+i {
+    display: inline-block;
+    float: left;
 }

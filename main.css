@@ -1,83 +1,105 @@
-body{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+body {
     border-radius: 10px;
     display: block;
     width: 100%;
     height: 700px;
     position: relative;
     font-family: 'Poiret One', cursive;
-    background-color: rgba(211, 218, 227, 0.61);
+    background-color: rgba(255, 255, 255, 0.61);
     vertical-align: baseline;
 }
-header{
+a {
+    text-decoration: none;
+}
+header {
     display: inline-block;
     width: 70%;
     height: 70px;
     margin-left: 15%;
-     margin-right: 15%;
-    background-color: rgba(195, 43, 195, 0.75);
-    align-content: right;
-
-
-}
-.nav {
-    display: inline-block;
-    width:100%;
     margin-right: 15%;
-    margin-left: 15%;
-    position:relative;
-    text-align: right;
+    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
     align-content: right;
-
+    border-radius: 7px;
 }
-.nav a{
+#nav {
     display: inline-block;
-    position: relative;
-   bottom: 0;
-    color: #bebebe;
-    text-align: right;
-}
-#main {
-    display:  block ;
-    background-color: rgba(190, 54, 216, 0.73);
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
-    color: #120d0d;
-    text-align: justify;
+    position: relative;
+    align-content: right;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 7px;
 }
-#container{
+#nav a {
+    border: 20px;
+    margin-top: 60px;
+    top: 30px;
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    margin-left: 10px;
+    margin-right: 10px
+}
+#main {
+    display: block;
+    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
+    width: 70%;
+    height: 700px;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: rgb(172, 0, 0);
+    text-align: justify;
+    border-radius: 7px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#container {
     display: block;
     width 70%;
     margin-right: 15%;
     margin-left: 15%;
-    background-color: rgba(178, 62, 174, 0.62);
-
+    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
 }
-h1{
+h1 {
     text-align: center;
     font-size: 40px;
 }
-
-table{
-    background-color: #fff7f7;
+table {
+    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
     width: 70%;
+    margin-top: 40px;
     margin-left: 15%;
     margin-left: 15%;
     display: block;
     border-spacing: 28px;
     table-layout: fixed;
-
+    border-radius: 5px;
 }
-th{
+th {
     text-align: center;
 }
-footer
-{
-    display: block;
-    width:70%;
+#stories {
+    color: darkred;
+}
+footer {
+    display: inline-block;
+    width: 70%;
     margin-left: 15%;
-    margin-right:15%;
-    background-color: mediumpurple;
+    margin-right: 15%;
+    margin-top: 20px;
+    background-image: url(images/photodune-4906273-silhouette-group-of-happy-children-playing-on-meadow-sunset-summertime-m1.jpg);
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+}
+i {
+    display: inline-block;
+    float: left;
+    padding: 10px;
 }
